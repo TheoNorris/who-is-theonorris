@@ -105,3 +105,73 @@ video {
     text-align: center;
     color: #272727;
 }
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-top: 2px solid rgb(163, 153, 143, .3);
+    padding-top: 15px;
+}
+
+.social-links {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #814f0c;
+    margin-bottom: 1%;
+}
+
+.theo-tag {
+    text-decoration-line: none;
+    color: #ff914D;
+}
+
+.pancake-text {
+    text-align: left;
+}
+
+.social-links:hover {
+    color: #ff914D;
+}
+
+.wrapper {
+    height: 200vh;
+    background: url("../images/computer.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.wrapper2 {
+    height: 200vh;
+    background: url("../images/warehouse.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.wrapper3 {
+    height: 200vh;
+    background: url("../images/cooking.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
