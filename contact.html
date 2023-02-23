@@ -24,10 +24,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbar-links">
                         <li class="nav-item">
-                            <a class="nav-link colour" aria-current="page" href="experience.html">Experience</a>
+                            <a class="nav-link colour" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link colour" href="contact.html">Contact me</a>
+                            <a class="nav-link colour" href="experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colour active" aria-current="page" href="contact.html">Contact me</a>
                         </li>
                     </ul>
                 </div>
@@ -38,23 +41,30 @@
 
     <section>
 
-        <div class="vid-and-text-div container">
-
-            <div class="vid-div">
-                <video class="theo-vid" width="450px" autoplay loop muted>
-                <source src="assets/images/me.mp4" type="video/mp4">
-            <img src="assets/images/me.png" alt="Theo Norris">
-            </video>
+        <div class="contact-wrapper">
+            <div class="overlay">
+                <div class="container form-container">
+                    <h1 class="contact-h1">Contact Form</h1>
+                    <p class="contact-p">If you're interested in learning more information about me or my experiences/education, please don't pause to contact me.</p>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="Name" class="form-control" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                        <input type="Subject" class="form-control" id="subject" placeholder="Subject..">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">What's on your mind?</label>
+                        <textarea class="form-control" id="Textarea1" placeholder="Thoughts.." rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3" id="sub-but">Submit</button>
+                </div>
             </div>
-            <div class="colour-div"></div>
-            <div class="colour2-div"></div>
-            <div class="text-div">
-                <h1 class="name-tag">Theo Norris</h1>
-                <h2 class="career-tag">Web Developer</h2>
-                <p class="home-text">"Positive and enthusiastic with a keen eye for web development and design. If you're looking for someone to bring fun to a project while keeping focus on quality and productivity, I'm your guy!"</p>
-            </div>
-
-
         </div>
 
     </section>
