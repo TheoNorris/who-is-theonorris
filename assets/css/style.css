@@ -1,603 +1,621 @@
-    @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600&family=Mynerve&display=swap');
-    body {
-        background-image: linear-gradient(135deg, #FFE2CB, #FFFFFF);
-    }
-    
-    .navbar-links {
-        margin-left: 65%;
-        font-size: 25px;
-        letter-spacing: 1px;
-        font-family: monospace;
-    }
-    
-    .nav-link.colour {
-        color: #814f0c;
-    }
-    
-    .nav-link.colour:hover {
-        color: #ff914D;
-    }
-    
-    .navbar-logo {
-        height: 75px;
-        border-radius: 20px;
-    }
-    
-    a.nav-link.colour.active {
-        color: #ff914D;
-        ;
-    }
-    
-    .theo-nav-div {
-        background-color: rgb(119, 84, 63);
-        height: 60px;
-        width: 150px;
-    }
-    
-    .vid-and-text-div {
-        margin-left: 0;
-        margin-bottom: 0;
-        padding-left: 0;
-        padding-bottom: 0;
-    }
-    
-    .colour-div {
-        right: 0px;
-        bottom: 20%;
-        width: 40%;
-        height: 60%;
-        margin-top: 30px;
-        background-color: #ecdbcf;
-        position: absolute;
-        opacity: 75%;
-        z-index: 0;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-    }
-    
-    .colour2-div {
-        right: 0px;
-        bottom: 0%;
-        width: 30%;
-        height: 60%;
-        margin-top: 30px;
-        background-color: #e6bda0;
-        position: absolute;
-        opacity: 50%;
-        z-index: 0;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-    }
-    
-    .vid-div {
-        padding-top: 20px;
-        padding-right: 20px;
-        background-color: #ecdbcf;
-        border-top-right-radius: 25px;
-        width: 50%;
-    }
-    
-    video {
-        border-top-right-radius: 25px;
-    }
-    
-    .text-div {
-        position: absolute;
-        top: 35%;
-        left: 35%;
-    }
-    
-    .name-tag {
-        font-size: 60px;
-        letter-spacing: 2px;
-        font-family: monospace;
-        margin-bottom: 0px;
-        color: #814f0c;
-        text-align: center;
-    }
-    
-    .career-tag {
-        letter-spacing: 3px;
-        text-align: center;
-        font-size: 35px;
-        color: #4d4d4d;
-    }
-    
-    .home-text {
-        font-size: 25px;
-        letter-spacing: 2px;
-        margin: 20px;
-        font-family: revert;
-        text-align: center;
-        color: #272727;
-    }
-    
-    .overlay {
-        height: 100%;
-        background: rgba(250, 250, 250, 0.5);
-        z-index: 2;
-        max-width: 100vw;
-        width: 100%;
-    }
-    
-    .wrapper {
-        margin-top: 100px;
-        height: 200vh;
-        background: url("../images/computer.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        z-index: 1;
-    }
-    
-    .wrapper2 {
-        height: 200vh;
-        background: url("../images/warehouse.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        z-index: 1;
-    }
-    
-    .wrapper3 {
-        height: 200vh;
-        background: url("../images/cooking.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        z-index: 1;
-        position: relative;
-    }
-    
-    .coding-info {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        background-color: #ff914d79;
-        width: 50%;
-        margin-top: 3%;
-        margin-left: 45%;
-        margin-right: 20px;
-        border-radius: 50px;
-        padding: 20px 10px 20px 10px;
-        border: 4px solid rgb(163, 153, 143, .3);
-    }
-    
-    .interest-h1 {
-        font-family: monospace;
-        letter-spacing: 3px;
-        text-align: center;
-        font-size: 35px;
-        color: #e14f4f;
-    }
-    
-    .interest-p {
-        font-size: 24px;
-        letter-spacing: 2px;
-        margin: 20px;
-        font-family: revert;
-        text-align: center;
-        color: #272727;
-    }
-    
-    .warehouse-info {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 45%;
-        margin-top: 3%;
-        border-radius: 50px;
-        padding: 20px 10px 20px 10px;
-        background-color: #ff914d79;
-        border: 4px solid rgb(163, 153, 143, .3);
-    }
-    
-    .div-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    
-    .div {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        height: 300px;
-        width: 40%;
-        justify-content: center;
-        background-color: #ff914d79;
-        border: 4px solid rgb(163, 153, 143, .3);
-        columns: white;
-        margin-top: 150px;
-        border-radius: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    .div-left {
-        margin-right: 75px;
-    }
-    
-    .div-right {
-        margin-left: 75px;
-    }
-    
-    .div.code-div {
-        height: 100%;
-        padding-bottom: 20px;
-    }
-    
-    .warehouse-div.div {
-        background-color: #fff8f39d;
-    }
-    
-    .previous-employ {
-        display: inline-grid;
-    }
-    
-    .skills {
-        font-family: monospace;
-        letter-spacing: 3px;
-        text-align: center;
-        font-size: 28px;
-        color: #e14f4f;
-        margin-top: 5%;
-    }
-    
-    .experience-dates {
-        font-family: 'Gloock', serif;
-        letter-spacing: 2px;
-        color: #80776b;
-    }
-    
-    .experience-points {
-        font-family: monospace;
-        font-size: 18px;
-        line-height: 22px;
-        margin-top: 3%;
-    }
-    
-    li {
-        margin-top: 10px;
-    }
-    
-    .info-links {
-        font-size: 25px;
-        color: #ff914D;
-        text-shadow: 0 0 rgb(102, 102, 102);
-    }
-    
-    .info-links:hover {
-        color: #814f0c;
-    }
-    
-    .work-logo {
-        width: 50%;
-        margin-top: 8%;
-    }
-    
-    .previous-logo {
-        width: 30%;
-    }
-    
-    .cooking-info {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 45%;
-        margin-top: 3%;
-        border-radius: 50px;
-        padding: 20px 10px 20px 10px;
-        background-color: #ff914d79;
-        border: 4px solid rgb(163, 153, 143, .3);
-        margin-left: 17%;
-    }
-    
-    .cooking-contact {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 400px;
-        height: 200px;
-        border-radius: 50px;
-        padding: 20px 10px 20px 10px;
-        background-color: #ff914d79;
-        position: absolute;
-        bottom: 35px;
-        right: 50px;
-        padding-bottom: 10px;
-    }
-    
-    .contact-a {
-        color: #e14f4f;
-        text-decoration: none;
-    }
-    
-    .contact-a:hover {
-        color: #814f0c;
-    }
-    
-    .cooking-contact-p.interest-p {
-        margin-top: 0px;
-        margin-bottom: 20px;
-        font-family: 'Mynerve', cursive;
-        font-size: 28px;
-    }
-    
-    .contact-smile {
-        color: #ff914D;
-    }
-    
-    .form-container {
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        background-color: #ecdbcf;
-        width: 60%;
-        padding: 20px;
-        border-radius: 25px;
-        z-index: 5;
-        margin: 40px auto;
-    }
-    
-    .contact-wrapper {
-        height: 110vh;
-        background: url("../images/contact.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        z-index: 1;
-    }
-    
-    .contact-h1 {
-        font-family: monospace;
-        letter-spacing: 3px;
-        text-align: center;
-        font-size: 35px;
-        color: #814f0c;
-    }
-    
-    .contact-p {
-        font-family: monospace;
-        font-size: 125%;
-        color: #434343;
-    }
-    
-    .form-label {
-        color: #814f0c;
-        font-size: 100%;
-        display: flex;
-        letter-spacing: 1px;
-    }
-    
-    button#sub-but {
-        background-color: #ff914D;
-        border-color: #ff914D;
-        letter-spacing: 1px;
-        box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
-        margin-left: 87%;
-        margin-top: 10px;
-    }
-    
-    footer {
-        text-align: center;
-        font-size: 15px;
-        letter-spacing: 2px;
-        border-top: 2px solid rgb(163, 153, 143, .3);
-        padding-top: 15px;
-    }
-    
-    .social-links {
-        font-size: 20px;
-        letter-spacing: 5px;
-        color: #814f0c;
-        margin-bottom: 1%;
-    }
-    
-    .theo-tag {
-        text-decoration-line: none;
-        color: #ff914D;
-    }
-    
-    .social-links:hover {
-        color: #ff914D;
-    }
-    
-    @media (max-width: 1149px) {
-        /* Navbar */
-        .navbar-links {
-            margin-left: 55%;
-        }
-        .navbar-logo {
-            height: 60px;
-        }
-        /* contact.html */
-        .contact-wrapper {
-            height: 135vh;
-        }
-        /* experience.html */
-        .wrapper {
-            margin-top: 80px
-        }
-        .coding-info {
-            margin-top: 11%;
-        }
-        .warehouse-info {
-            margin-top: 11%;
-        }
-        .cooking-info {
-            margin-top: 11%;
-        }
-        .div-left {
-            margin-right: 30px;
-        }
-        .div-right {
-            margin-left: 30px;
-        }
-        .interest-p {
-            font-size: 16px;
-            letter-spacing: 1px;
-        }
-        .interest-h1 {
-            font-size: 25px;
-            letter-spacing: 2px;
-        }
-        .skills {
-            font-size: 20px;
-            letter-spacing: 2px;
-        }
-        .experience-dates {
-            font-size: 20px;
-        }
-        .experience-points {
-            font-size: 15px;
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-        .info-links {
-            font-size: 20px;
-        }
-        .cooking-contact-p.interest-p {
-            font-size: 20px;
-            letter-spacing: 1px;
-        }
-        .cooking-contact {
-            width: 300px;
-            height: 150px;
-        }
-    }
-    
-    @media (max-width: 991px) {
-        /* contact.html */
-        .form-container {
-            width: 90%;
-        }
-        .contact-h1 {
-            font-size: 27px;
-        }
-        .contact-p {
-            font-size: 18px;
-        }
-        /* experience.html */
-        .code-div {
-            width: 450px;
-            margin-top: 100px;
-        }
-        .warehouse-div {
-            margin-top: 200px;
-            height: 250px;
-        }
-        .coding-info {
-            margin-top: 7%;
-        }
-        .warehouse-info {
-            margin-top: 11%;
-            width: 60%;
-        }
-        .cooking-info {
-            margin-top: 7%;
-        }
-        .previous-logo {
-            width: 50%;
-        }
-        .work-logo {
-            margin-top: 40px;
-            width: 60%;
-        }
-    }
-    
-    @media (max-width: 760px) {
-        /* index.html */
-        .colour-div {
-            display: none;
-        }
-        .colour2-div {
-            display: none;
-        }
-        .vid-div {
-            width: 100%
-        }
-        .text-div {
-            top: 40%;
-        }
-        .name-tag {
-            font-size: 40px;
-        }
-        .career-tag {
-            font-size: 27px;
-        }
-        .home-text {
-            font-size: 20px;
-        }
-        /* contact.html */
-        .form-container {
-            width: 95%;
-        }
-        button#sub-but {
-            margin-left: 81%;
-        }
-        /* experience.html */
-        li {
-            margin-top: 5px;
-            font-size: 12px;
-        }
-        .coding-info {
-            margin-top: 11%;
-        }
-        .skills {
-            font-size: 18px;
-            letter-spacing: 2px;
-        }
-        .experience-dates {
-            font-size: 18px;
-        }
-        .interest-h1 {
-            font-size: 20px;
-        }
-        .interest-p {
-            margin: 5px;
-        }
-        footer {
-            font-size: 10px;
-        }
-        .warehouse-info {
-            width: 60%;
-            margin-top: 10%;
-        }
-        .warehouse-div {
-            margin-top: 225px;
-        }
-        .cooking-info {
-            width: 60%;
-            margin-top: 10%;
-        }
-    }
-    
-    @media (max-width: 594px) {
-        /* index.html */
-        .text-div {
-            top: 65%;
-        }
-        .name-tag {
-            font-size: 30px;
-        }
-        .career-tag {
-            font-size: 19px;
-        }
-        .home-text {
-            font-size: 15px;
-            margin-top: 5px;
-        }
-    }
+                                            @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600&family=Mynerve&display=swap');
+                                        body {
+                                            background-image: linear-gradient(135deg, #FFE2CB, #FFFFFF);
+                                        }
+                                        
+                                        .navbar-links {
+                                            margin-left: 65%;
+                                            font-size: 25px;
+                                            letter-spacing: 1px;
+                                            font-family: monospace;
+                                        }
+                                        
+                                        .nav-link.colour {
+                                            color: #814f0c;
+                                        }
+                                        
+                                        .nav-link.colour:hover {
+                                            color: #ff914D;
+                                        }
+                                        
+                                        .navbar-logo {
+                                            height: 75px;
+                                            border-radius: 20px;
+                                        }
+                                        
+                                        a.nav-link.colour.active {
+                                            color: #ff914D;
+                                            ;
+                                        }
+                                        
+                                        .theo-nav-div {
+                                            background-color: rgb(119, 84, 63);
+                                            height: 60px;
+                                            width: 150px;
+                                        }
+                                        
+                                        .vid-and-text-div {
+                                            margin-left: 0;
+                                            margin-bottom: 0;
+                                            padding-left: 0;
+                                            padding-bottom: 0;
+                                        }
+                                        
+                                        .colour-div {
+                                            right: 0px;
+                                            bottom: 20%;
+                                            width: 40%;
+                                            height: 60%;
+                                            margin-top: 30px;
+                                            background-color: #ecdbcf;
+                                            position: absolute;
+                                            opacity: 75%;
+                                            z-index: 0;
+                                            border-top-left-radius: 25px;
+                                            border-bottom-left-radius: 25px;
+                                        }
+                                        
+                                        .colour2-div {
+                                            right: 0px;
+                                            bottom: 0%;
+                                            width: 30%;
+                                            height: 60%;
+                                            margin-top: 30px;
+                                            background-color: #e6bda0;
+                                            position: absolute;
+                                            opacity: 50%;
+                                            z-index: 0;
+                                            border-top-left-radius: 25px;
+                                            border-bottom-left-radius: 25px;
+                                        }
+                                        
+                                        .vid-div {
+                                            padding-top: 20px;
+                                            padding-right: 20px;
+                                            background-color: #ecdbcf;
+                                            border-top-right-radius: 25px;
+                                            width: 50%;
+                                        }
+                                        
+                                        video {
+                                            border-top-right-radius: 25px;
+                                        }
+                                        
+                                        .text-div {
+                                            position: absolute;
+                                            top: 35%;
+                                            left: 35%;
+                                        }
+                                        
+                                        .name-tag {
+                                            font-size: 60px;
+                                            letter-spacing: 2px;
+                                            font-family: monospace;
+                                            margin-bottom: 0px;
+                                            color: #814f0c;
+                                            text-align: center;
+                                        }
+                                        
+                                        .career-tag {
+                                            letter-spacing: 3px;
+                                            text-align: center;
+                                            font-size: 35px;
+                                            color: #4d4d4d;
+                                        }
+                                        
+                                        .home-text {
+                                            font-size: 25px;
+                                            letter-spacing: 2px;
+                                            margin: 20px;
+                                            font-family: revert;
+                                            text-align: center;
+                                            color: #272727;
+                                        }
+                                        
+                                        .overlay {
+                                            height: 100%;
+                                            background: rgba(250, 250, 250, 0.5);
+                                            z-index: 2;
+                                            max-width: 100vw;
+                                            width: 100%;
+                                        }
+                                        
+                                        .wrapper {
+                                            margin-top: 100px;
+                                            height: 200vh;
+                                            background: url("../images/computer.jpg") no-repeat center center;
+                                            -webkit-background-size: cover;
+                                            -moz-background-size: cover;
+                                            -o-background-size: cover;
+                                            background-size: cover;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            z-index: 1;
+                                        }
+                                        
+                                        .wrapper2 {
+                                            height: 200vh;
+                                            background: url("../images/warehouse.jpg") no-repeat center center;
+                                            -webkit-background-size: cover;
+                                            -moz-background-size: cover;
+                                            -o-background-size: cover;
+                                            background-size: cover;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            z-index: 1;
+                                        }
+                                        
+                                        .wrapper3 {
+                                            height: 200vh;
+                                            background: url("../images/cooking.jpg") no-repeat center center;
+                                            -webkit-background-size: cover;
+                                            -moz-background-size: cover;
+                                            -o-background-size: cover;
+                                            background-size: cover;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            z-index: 1;
+                                            position: relative;
+                                        }
+                                        
+                                        .coding-info {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            background-color: #ff914d79;
+                                            width: 50%;
+                                            margin-top: 3%;
+                                            margin-left: 45%;
+                                            margin-right: 20px;
+                                            border-radius: 50px;
+                                            padding: 20px 10px 20px 10px;
+                                            border: 4px solid rgb(163, 153, 143, .3);
+                                        }
+                                        
+                                        .interest-h1 {
+                                            font-family: monospace;
+                                            letter-spacing: 3px;
+                                            text-align: center;
+                                            font-size: 35px;
+                                            color: #e14f4f;
+                                        }
+                                        
+                                        .interest-p {
+                                            font-size: 24px;
+                                            letter-spacing: 2px;
+                                            margin: 20px;
+                                            font-family: revert;
+                                            text-align: center;
+                                            color: #272727;
+                                        }
+                                        
+                                        .warehouse-info {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            text-align: center;
+                                            width: 45%;
+                                            margin-top: 3%;
+                                            border-radius: 50px;
+                                            padding: 20px 10px 20px 10px;
+                                            background-color: #ff914d79;
+                                            border: 4px solid rgb(163, 153, 143, .3);
+                                        }
+                                        
+                                        .div-container {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+                                        }
+                                        
+                                        .div {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            height: 300px;
+                                            width: 40%;
+                                            justify-content: center;
+                                            background-color: #ff914d79;
+                                            border: 4px solid rgb(163, 153, 143, .3);
+                                            columns: white;
+                                            margin-top: 150px;
+                                            border-radius: 20px;
+                                            padding-left: 10px;
+                                            padding-right: 10px;
+                                        }
+                                        
+                                        .div-left {
+                                            margin-right: 75px;
+                                        }
+                                        
+                                        .div-right {
+                                            margin-left: 75px;
+                                        }
+                                        
+                                        .div.code-div {
+                                            height: 100%;
+                                            padding-bottom: 20px;
+                                        }
+                                        
+                                        .warehouse-div.div {
+                                            background-color: #fff8f39d;
+                                        }
+                                        
+                                        .previous-employ {
+                                            display: inline-grid;
+                                        }
+                                        
+                                        .skills {
+                                            font-family: monospace;
+                                            letter-spacing: 3px;
+                                            text-align: center;
+                                            font-size: 28px;
+                                            color: #e14f4f;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        .experience-dates {
+                                            font-family: 'Gloock', serif;
+                                            letter-spacing: 2px;
+                                            color: #80776b;
+                                        }
+                                        
+                                        .experience-points {
+                                            font-family: monospace;
+                                            font-size: 18px;
+                                            line-height: 22px;
+                                            margin-top: 3%;
+                                        }
+                                        
+                                        li {
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .info-links {
+                                            font-size: 25px;
+                                            color: #ff914D;
+                                            text-shadow: 0 0 rgb(102, 102, 102);
+                                        }
+                                        
+                                        .info-links:hover {
+                                            color: #814f0c;
+                                        }
+                                        
+                                        .work-logo {
+                                            width: 50%;
+                                            margin-top: 8%;
+                                        }
+                                        
+                                        .previous-logo {
+                                            width: 30%;
+                                        }
+                                        
+                                        .cooking-info {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            text-align: center;
+                                            width: 45%;
+                                            margin-top: 3%;
+                                            border-radius: 50px;
+                                            padding: 20px 10px 20px 10px;
+                                            background-color: #ff914d79;
+                                            border: 4px solid rgb(163, 153, 143, .3);
+                                            margin-left: 17%;
+                                        }
+                                        
+                                        .cooking-contact {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            text-align: center;
+                                            width: 400px;
+                                            height: 200px;
+                                            border-radius: 50px;
+                                            padding: 20px 10px 20px 10px;
+                                            background-color: #ff914d79;
+                                            position: absolute;
+                                            bottom: 35px;
+                                            right: 50px;
+                                            padding-bottom: 10px;
+                                        }
+                                        
+                                        .contact-a {
+                                            color: #e14f4f;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .contact-a:hover {
+                                            color: #814f0c;
+                                        }
+                                        
+                                        .cooking-contact-p.interest-p {
+                                            margin-top: 0px;
+                                            margin-bottom: 20px;
+                                            font-family: 'Mynerve', cursive;
+                                            font-size: 28px;
+                                        }
+                                        
+                                        .contact-smile {
+                                            color: #ff914D;
+                                        }
+                                        
+                                        .form-container {
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+                                            background-color: #ecdbcf;
+                                            width: 60%;
+                                            padding: 20px;
+                                            border-radius: 25px;
+                                            z-index: 5;
+                                            margin: 40px auto;
+                                        }
+                                        
+                                        .contact-wrapper {
+                                            height: 110vh;
+                                            background: url("../images/contact.jpg") no-repeat center center;
+                                            -webkit-background-size: cover;
+                                            -moz-background-size: cover;
+                                            -o-background-size: cover;
+                                            background-size: cover;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            z-index: 1;
+                                        }
+                                        
+                                        .contact-h1 {
+                                            font-family: monospace;
+                                            letter-spacing: 3px;
+                                            text-align: center;
+                                            font-size: 35px;
+                                            color: #814f0c;
+                                        }
+                                        
+                                        .contact-p {
+                                            font-family: monospace;
+                                            font-size: 125%;
+                                            color: #434343;
+                                        }
+                                        
+                                        .form-label {
+                                            color: #814f0c;
+                                            font-size: 100%;
+                                            display: flex;
+                                            letter-spacing: 1px;
+                                        }
+                                        
+                                        button#sub-but {
+                                            background-color: #ff914D;
+                                            border-color: #ff914D;
+                                            letter-spacing: 1px;
+                                            box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+                                            margin-left: 87%;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        footer {
+                                            text-align: center;
+                                            font-size: 15px;
+                                            letter-spacing: 2px;
+                                            border-top: 2px solid rgb(163, 153, 143, .3);
+                                            padding-top: 15px;
+                                        }
+                                        
+                                        .social-links {
+                                            font-size: 20px;
+                                            letter-spacing: 5px;
+                                            color: #814f0c;
+                                            margin-bottom: 1%;
+                                        }
+                                        
+                                        .theo-tag {
+                                            text-decoration-line: none;
+                                            color: #ff914D;
+                                        }
+                                        
+                                        .social-links:hover {
+                                            color: #ff914D;
+                                        }
+                                        
+                                        @media (max-width: 1149px) {
+                                            /* Navbar */
+                                            .navbar-links {
+                                                margin-left: 55%;
+                                            }
+                                            .navbar-logo {
+                                                height: 60px;
+                                            }
+                                            /* contact.html */
+                                            .contact-wrapper {
+                                                height: 135vh;
+                                            }
+                                            /* experience.html */
+                                            .wrapper {
+                                                margin-top: 80px
+                                            }
+                                            .coding-info {
+                                                margin-top: 11%;
+                                            }
+                                            .warehouse-info {
+                                                margin-top: 11%;
+                                            }
+                                            .cooking-info {
+                                                margin-top: 11%;
+                                            }
+                                            .div-left {
+                                                margin-right: 30px;
+                                            }
+                                            .div-right {
+                                                margin-left: 30px;
+                                            }
+                                            .interest-p {
+                                                font-size: 16px;
+                                                letter-spacing: 1px;
+                                            }
+                                            .interest-h1 {
+                                                font-size: 25px;
+                                                letter-spacing: 2px;
+                                            }
+                                            .skills {
+                                                font-size: 20px;
+                                                letter-spacing: 2px;
+                                            }
+                                            .experience-dates {
+                                                font-size: 20px;
+                                            }
+                                            .experience-points {
+                                                font-size: 15px;
+                                                padding-left: 0px;
+                                                padding-right: 0px;
+                                            }
+                                            .info-links {
+                                                font-size: 20px;
+                                            }
+                                            .cooking-contact-p.interest-p {
+                                                font-size: 20px;
+                                                letter-spacing: 1px;
+                                            }
+                                            .cooking-contact {
+                                                width: 300px;
+                                                height: 150px;
+                                            }
+                                        }
+                                        
+                                        @media (max-width: 991px) {
+                                            /* contact.html */
+                                            .form-container {
+                                                width: 90%;
+                                            }
+                                            .contact-h1 {
+                                                font-size: 27px;
+                                            }
+                                            .contact-p {
+                                                font-size: 18px;
+                                            }
+                                            /* experience.html */
+                                            .code-div {
+                                                width: 450px;
+                                                margin-top: 100px;
+                                            }
+                                            .warehouse-div {
+                                                margin-top: 200px;
+                                                height: 250px;
+                                            }
+                                            .coding-info {
+                                                margin-top: 7%;
+                                            }
+                                            .warehouse-info {
+                                                margin-top: 11%;
+                                                width: 60%;
+                                            }
+                                            .cooking-info {
+                                                margin-top: 7%;
+                                            }
+                                            .previous-logo {
+                                                width: 50%;
+                                            }
+                                            .work-logo {
+                                                margin-top: 40px;
+                                                width: 60%;
+                                            }
+                                        }
+                                        
+                                        @media (max-width: 845px) {}
+                                        
+                                        @media (max-width: 760px) {
+                                            /* index.html */
+                                            .colour-div {
+                                                display: none;
+                                            }
+                                            .colour2-div {
+                                                display: none;
+                                            }
+                                            .vid-div {
+                                                width: 100%
+                                            }
+                                            .text-div {
+                                                top: 40%;
+                                            }
+                                            .name-tag {
+                                                font-size: 40px;
+                                            }
+                                            .career-tag {
+                                                font-size: 27px;
+                                            }
+                                            .home-text {
+                                                font-size: 20px;
+                                            }
+                                            /* contact.html */
+                                            .form-container {
+                                                width: 95%;
+                                            }
+                                            button#sub-but {
+                                                margin-left: 81%;
+                                            }
+                                            /* experience.html */
+                                            li {
+                                                margin-top: 5px;
+                                                font-size: 12px;
+                                            }
+                                            .coding-info {
+                                                margin-left: 10px;
+                                                margin-right: 5px;
+                                                margin-top: 11%;
+                                                width: 95%;
+                                            }
+                                            .skills {
+                                                font-size: 18px;
+                                                letter-spacing: 2px;
+                                            }
+                                            .experience-dates {
+                                                font-size: 18px;
+                                            }
+                                            .interest-h1 {
+                                                font-size: 20px;
+                                            }
+                                            .interest-p {
+                                                margin: 5px;
+                                            }
+                                            footer {
+                                                font-size: 10px;
+                                            }
+                                            .warehouse-info {
+                                                width: 95%;
+                                                margin-top: 10%;
+                                            }
+                                            .warehouse-div {
+                                                margin-top: 225px;
+                                            }
+                                            .cooking-info {
+                                                width: 95%;
+                                                margin-top: 10%;
+                                                margin-left: 0px;
+                                            }
+                                            .div-container {
+                                                flex-direction: column;
+                                                margin-top: 50px;
+                                            }
+                                            .div {
+                                                width: 90%;
+                                                margin-top: 20px;
+                                            }
+                                            .div-left {
+                                                margin-right: 0px;
+                                            }
+                                            .div-right {
+                                                margin-left: 0px;
+                                            }
+                                            @media (max-width: 594px) {
+                                                /* index.html */
+                                                .text-div {
+                                                    top: 65%;
+                                                }
+                                                .name-tag {
+                                                    font-size: 30px;
+                                                }
+                                                .career-tag {
+                                                    font-size: 19px;
+                                                }
+                                                .home-text {
+                                                    font-size: 15px;
+                                                    margin-top: 5px;
+                                                }
+                                            }
