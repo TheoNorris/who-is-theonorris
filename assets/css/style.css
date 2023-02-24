@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,600&family=Mynerve&display=swap');
+
+/*-------body---------*/
+
 body {
     background-image: linear-gradient(135deg, #FFE2CB, #FFFFFF);
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
+
+/*-------Navbnars---------*/
 
 .navbar-links {
     margin-left: 65%;
@@ -38,12 +44,18 @@ a.nav-link.colour.active {
     width: 150px;
 }
 
+
+/*-------Index.html/Video och text div---------*/
+
 .vid-and-text-div {
     margin-left: 0;
     margin-bottom: 0;
     padding-left: 0;
     padding-bottom: 0;
 }
+
+
+/*-------Index.html/2 div som skapar en mönster---------*/
 
 .colour-div {
     right: 0px;
@@ -72,6 +84,9 @@ a.nav-link.colour.active {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
+
+/*-------Index.html/Video och text---------*/
 
 .vid-div {
     padding-top: 20px;
@@ -116,6 +131,9 @@ video {
     text-align: center;
     color: #272727;
 }
+
+
+/*-------experience.html/background---------*/
 
 .overlay {
     height: 100%;
@@ -169,6 +187,9 @@ video {
     position: relative;
 }
 
+
+/*-------Index.html/Div som beskriver min coding erfarenhet---------*/
+
 .coding-info {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     background-color: #ff914d79;
@@ -198,6 +219,9 @@ video {
     color: #272727;
 }
 
+
+/*-------experience.html/Div som beskriver min warehouse erfarenhet---------*/
+
 .warehouse-info {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -209,6 +233,9 @@ video {
     border: 4px solid rgb(163, 153, 143, .3);
 }
 
+
+/*--experience.html/divs som håller animation divs som ha skolor och arbetsgivare--*/
+
 .div-container {
     display: flex;
     justify-content: center;
@@ -216,6 +243,9 @@ video {
     width: 100%;
     overflow-x: hidden
 }
+
+
+/*-------experience.html/animation divs som ha skolor och arbetsgivare---------*/
 
 .div {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -244,6 +274,9 @@ video {
     padding-bottom: 20px;
 }
 
+
+/*-------experience.html/arbetsgivare animatiomn div---------*/
+
 .warehouse-div.div {
     background-color: #fff8f39d;
 }
@@ -251,6 +284,9 @@ video {
 .previous-employ {
     display: inline-grid;
 }
+
+
+/*-------experience.html/animatiomn div H1---------*/
 
 .skills {
     font-family: 'Lobster', cursive;
@@ -262,15 +298,24 @@ video {
     margin-bottom: 15px;
 }
 
+
+/*-------experience.html/före arbetsgivare div h1---------*/
+
 .pre-skills {
     margin-bottom: 0;
 }
+
+
+/*-------experience.html/arbetsgivare datum---------*/
 
 .experience-dates {
     font-family: 'Gloock', serif;
     letter-spacing: 2px;
     color: #80776b;
 }
+
+
+/*-------experience.html/kod erfarenhet---------*/
 
 .experience-points {
     font-family: monospace;
@@ -287,6 +332,9 @@ li {
     margin-top: 10px;
 }
 
+
+/*-------experience.html/kod skolor länkar---------*/
+
 .info-links {
     font-size: 25px;
     color: #ff914D;
@@ -297,10 +345,16 @@ li {
     color: #815720;
 }
 
+
+/*-------experience.html/jobb länkar---------*/
+
 .work-logo {
     width: 50%;
     margin-top: 8%;
 }
+
+
+/*-------experience.html/jobb länkar ändra när man hover över---------*/
 
 .work-logo:hover {
     background-color: #ff914d79;
@@ -322,6 +376,9 @@ li {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
+
+/*-------experience.html/kok erfarenheter div---------*/
+
 .cooking-info {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -333,6 +390,9 @@ li {
     border: 4px solid rgb(163, 153, 143, .3);
     margin-left: 17%;
 }
+
+
+/*-------experience.html/animation div med länk till contact.html---------*/
 
 .cooking-contact {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -368,6 +428,9 @@ li {
     color: #ff914D;
 }
 
+
+/*-------contact.html/form div---------*/
+
 .form-container {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     background-color: #ecdbcf;
@@ -377,6 +440,9 @@ li {
     z-index: 5;
     margin: 40px auto;
 }
+
+
+/*-------contact.html/background bild---------*/
 
 .contact-wrapper {
     height: 110vh;
@@ -392,6 +458,9 @@ li {
     z-index: 1;
 }
 
+
+/*-------contact.html/H1---------*/
+
 .contact-h1 {
     font-family: monospace;
     letter-spacing: 3px;
@@ -400,11 +469,17 @@ li {
     color: #814f0c;
 }
 
+
+/*-------contact.html/p---------*/
+
 .contact-p {
     font-family: monospace;
     font-size: 125%;
     color: #434343;
 }
+
+
+/*-------contact.html/namn, email etc---------*/
 
 .form-label {
     color: #814f0c;
@@ -412,6 +487,13 @@ li {
     display: flex;
     letter-spacing: 1px;
 }
+
+.form-control {
+    background: white;
+}
+
+
+/*-------contact.html/form button---------*/
 
 button#sub-but {
     background-color: #ff914D;
@@ -422,6 +504,9 @@ button#sub-but {
     margin-top: 10px;
 }
 
+
+/*-------Footer till varje sida---------*/
+
 footer {
     margin-top: auto;
     text-align: center;
@@ -431,12 +516,18 @@ footer {
     padding-top: 15px;
 }
 
+
+/*-------Footer/Social länkar---------*/
+
 .social-links {
     font-size: 20px;
     letter-spacing: 5px;
     color: #814f0c;
     margin-bottom: 1%;
 }
+
+
+/*-------Footer/namn/github länk---------*/
 
 .theo-tag {
     text-decoration-line: none;
@@ -446,6 +537,9 @@ footer {
 .social-links:hover {
     color: #ff914D;
 }
+
+
+/*-------Responsiveness till olika storlek---------*/
 
 @media (max-width: 1149px) {
     /* Navbar */
@@ -514,6 +608,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
+    /* experience.html */
     .wrapper {
         height: 110vh;
     }
@@ -589,15 +684,15 @@ footer {
     }
 }
 
-@media (max-width: 845px) {}
-
 @media (max-width: 760px) {
+    /* nav länkar */
     .nav-link {
         padding: 0;
     }
     .navbar-logo {
         height: 50px;
     }
+    /* footer */
     .copyright-text {
         padding: 0 15px;
     }
@@ -729,12 +824,14 @@ footer {
         font-size: 15px;
         margin-top: 5px;
     }
+    /* contact.html */
     button#sub-but {
         margin-left: 70%;
     }
     .contact-wrapper {
         height: 115vh;
     }
+    /* experience.html */
     .wrapper {
         height: 150vh;
     }
@@ -747,11 +844,19 @@ footer {
 }
 
 @media (max-width: 420px) {
+    /* index.html */
     .vid-div {
         width: 100%;
         height: 60vh;
         position: absolute;
     }
+    .theo-vid {
+        width: 70%;
+    }
+    .vid-div {
+        position: absolute;
+    }
+    /* experience.html */
     .wrapper {
         height: 200vh;
     }
@@ -764,18 +869,14 @@ footer {
     .cooking-contact {
         right: 30px;
     }
-    .theo-vid {
-        width: 70%;
-    }
-    .vid-div {
-        position: absolute;
-    }
 }
 
 @media (max-width: 300px) {
+    /* index.html */
     .home-text {
         font-size: 12px;
     }
+    /* experience.html */
     .wrapper {
         height: 230vh;
     }
