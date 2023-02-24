@@ -1,4 +1,4 @@
-![Josh Leedam Photography](/assets/readme-documents/theologo.png)
+![Theo Norris web development](/assets/readme-documents/theologo.png)
 
 
 
@@ -10,7 +10,7 @@ containing 3 pages. A home page, a page of my experiences and a contact page.
  This website has been created to promote my web development skills and work experience to potential employers.
  The site users will be people interested in learning more about me and employers. The website is easy and smooth to use, focused on explaining the important skills and experiences I have. It will also be focused on making it easy if someone will contact me
 
- ![Josh Leedam Homepage](/assets/readme-documents/animate.png)
+ ![Theo Norris web development](/assets/readme-documents/animate.png)
 
  * As a user I can see what the main focus of the website is.
  * As a user I can navigate myself to any social media Theo Norris has.
