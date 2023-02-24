@@ -820,9 +820,6 @@
         .theo-vid {
             width: 60%;
         }
-        .contact-wrapper {
-            height: 130vh;
-        }
     }
     
     @media (max-width: 300px) {
