@@ -872,6 +872,9 @@ footer {
 }
 
 @media (max-width: 300px) {
+    body {
+        height: 120vh;
+    }
     /* index.html */
     .home-text {
         font-size: 12px;
@@ -890,5 +893,8 @@ footer {
         width: 80%;
         height: 180px;
         right: 30px;
+    }
+    .contact-wrapper {
+        height: 140vh;
     }
 }
