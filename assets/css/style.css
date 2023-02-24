@@ -494,7 +494,7 @@
         }
         /* contact.html */
         .contact-wrapper {
-            height: 135vh;
+            height: 105vh;
         }
         /* experience.html */
         .wrapper {
@@ -806,7 +806,7 @@
             height: 170vh;
         }
         .wrapper3 {
-            height: 120vh;
+            height: 105vh;
         }
         .cooking-contact {
             right: 30px;
@@ -816,6 +816,9 @@
     @media (max-width: 365px) {
         .theo-vid {
             width: 60%;
+        }
+        .contact-wrapper {
+            height: 130vh;
         }
     }
     
