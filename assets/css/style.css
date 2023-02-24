@@ -792,7 +792,8 @@
             position: absolute;
         }
         .theo-vid {
-            width: 70%;
+            width: 65%;
+            padding-top: 0;
         }
         .vid-div {
             position: absolute;
