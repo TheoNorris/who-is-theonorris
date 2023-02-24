@@ -811,6 +811,9 @@
         .cooking-contact {
             right: 30px;
         }
+        .contact-wrapper {
+            height: 130vh;
+        }
     }
     
     @media (max-width: 375px) {
