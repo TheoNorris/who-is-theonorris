@@ -83,6 +83,7 @@ a.nav-link.colour.active {
 
 video {
     border-top-right-radius: 25px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .text-div {
@@ -261,6 +262,10 @@ video {
     margin-bottom: 15px;
 }
 
+.pre-skills {
+    margin-bottom: 0;
+}
+
 .experience-dates {
     font-family: 'Gloock', serif;
     letter-spacing: 2px;
@@ -289,7 +294,7 @@ li {
 }
 
 .info-links:hover {
-    color: #814f0c;
+    color: #815720;
 }
 
 .work-logo {
@@ -297,8 +302,24 @@ li {
     margin-top: 8%;
 }
 
+.work-logo:hover {
+    background-color: #ff914d79;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(163, 153, 143, .3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
 .previous-logo {
     width: 30%;
+}
+
+.previous-logo:hover {
+    background-color: #ff914d79;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(163, 153, 143, .3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .cooking-info {
@@ -515,6 +536,7 @@ footer {
     .theo-vid {
         border-bottom-right-radius: 25px;
         padding-top: 10%;
+        box-shadow: none;
     }
     .vid-div {
         width: 90%;
