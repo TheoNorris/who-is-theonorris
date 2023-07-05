@@ -16,7 +16,6 @@ body {
 }
 
 #navbarNav {
-  display: flex;
   flex-direction: row-reverse;
 }
 
@@ -634,6 +633,10 @@ footer {
     padding: 20px;
     border-radius: 15px;
     opacity: 90%;
+  }
+
+  .navbar-links-contact {
+    position: absolute;
   }
 
   /* nav länkar */
