@@ -10,14 +10,14 @@ body {
 /*-------Navbnars---------*/
 
 .navbar-links {
-  margin-left: 65%;
   font-size: 25px;
   letter-spacing: 1px;
   font-family: monospace;
-  background-color: #fff4eb;
-  padding: 20px;
-  border-radius: 15px;
-  opacity: 90%;
+}
+
+#navbarNav {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .nav-link.colour {
@@ -629,6 +629,13 @@ footer {
 }
 
 @media (max-width: 760px) {
+  .navbar-links {
+    background-color: #fff4eb;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 90%;
+  }
+
   /* nav länkar */
   .nav-link {
     padding: 0;
