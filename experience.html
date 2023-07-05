@@ -1,148 +1,229 @@
 <html lang="en">
-
-<head>
+  <head>
     <!--Meta tags och länkar till favicon, bootstrap, fontawesome och css-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Experience - Theo Norris, web developer</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/f14b07e4b8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f14b07e4b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <!--Navbar-->
-        <nav id="navbar-css" class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/tn.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav navbar-links">
-                        <li class="nav-item">
-                            <a class="nav-link colour" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colour active" aria-current="page" href="experience.html">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colour" href="contact.html">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+      <!--Navbar-->
+      <nav id="navbar-css" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="navbar-logo" src="assets/images/tn.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-links">
+              <li class="nav-item">
+                <a class="nav-link colour" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link colour active"
+                  aria-current="page"
+                  href="experience.html"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colour" href="contact.html">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section>
-        <!--Background wrapper och färg overlay till coding information-->
-        <div class="wrapper">
-            <div class="overlay">
-                <!--Div som har information om min coding erfarenhet-->
-                <div class="coding-info container">
-                    <h1 class="interest-h1">My interest in coding</h1>
-                    <p class="interest-p">My interest in coding started during the pandemic in 2020. I had always been interested in art, photography and design since studying the courses in school and college, as well as being a large interest in my personal life but had
-                        never known which way I personally could implement them into a profession. As the world grows more digital I saw coding as a way forward to express myself and enrolled in a full-stack development course in which I learnt a variation
-                        of languages and frameworks
-                    </p>
-                </div>
-                <!--Animation divs med skolor och erfarenheter-->
-                <div class="container div-container">
-                    <div class="div code-div div-left" data-aos="fade-right">
-                        <h2 class="skills">Code Institute</h2>
-                        <h3 class="experience-dates">2020</h3>
-                        <ul class="experience-points" style="list-style-type: none">
-                            <li>User centric frontend development</li>
-                            <li>Interactive frontend development</li>
-                            <li>Data centric development</li>
-                            <li>Full Stack Frameworks</li>
-                        </ul>
-                        <a target="_blank" href="https://codeinstitute.net"><i class="fa-solid fa-circle-info info-links"></i></a>
-                    </div>
-                    <div class="div code-div div-right" data-aos="fade-left">
-                        <h2 class="skills">Grit Academy</h2>
-                        <h3 class="experience-dates">Jan 2022 - Present</h3>
-                        <ul class="experience-points" style="list-style-type: none">
-                            <li>Entrepreneurship and consulting</li>
-                            <li>HTML and CSS</li>
-                            <li>Design and UX</li>
-                            <li>Frontend JavaScript</li>
-                        </ul>
-                        <a target="_blank" href="https://gritacademy.se/webbutvecklare-inriktning-e-handel/"><i class="fa-solid fa-circle-info info-links"></i></a>
-                    </div>
-                </div>
+      <!--Background wrapper och färg overlay till coding information-->
+      <div class="wrapper">
+        <div class="overlay">
+          <!--Div som har information om min coding erfarenhet-->
+          <div class="coding-info container">
+            <h1 class="interest-h1">My interest in coding</h1>
+            <p class="interest-p">
+              In 2020, during the pandemic, I discovered my interest in coding.
+              With a background in art, photography, and design, I saw coding as
+              a way to express myself in the growing digital world. I enrolled
+              in a full-stack development course, learning various languages and
+              frameworks. Since then, I've worked freelance for various
+              companies within different industries while studying e-commerce
+              orientated webdevelopment full time. I combine my artistic
+              background with technical skills to create visually appealing and
+              user-friendly websites while constantly seeking growth and
+              improvement in my coding journey.
+            </p>
+          </div>
+          <!--Animation divs med skolor och erfarenheter-->
+          <div class="container div-container">
+            <div class="div code-div div-left" data-aos="fade-right">
+              <h2 class="skills">Code Institute</h2>
+              <h3 class="experience-dates">2020</h3>
+              <ul class="experience-points" style="list-style-type: none">
+                <li>User centric frontend development</li>
+                <li>Interactive frontend development</li>
+                <li>Data centric development</li>
+                <li>Full Stack Frameworks</li>
+              </ul>
+              <a target="_blank" href="https://codeinstitute.net"
+                ><i class="fa-solid fa-circle-info info-links"></i
+              ></a>
             </div>
-        </div>
-        <!--Background wrapper och färg overlay till lager information-->
-        <div class="wrapper2">
-            <div class="overlay">
-                <!--Div som har information om min coding erfarenhet-->
-                <div class="warehouse-info container">
-                    <h1 class="interest-h1">My time in Sweden</h1>
-                    <p class="interest-p">Since moving to Sweden I have been working within logistics which has lead me to meeting many great colleagues over the years but I have also learnt and implemented many applicable skills that are relative to other occupations. I have
-                        often been a part of a well functioning team, organising and cooperating seemlessly in order to solve challenges and meet deadlines. I have worked independantly at times reaching targets and resolving customer problems. This line
-                        of work also requires a person to be effective, efficient and punctual daily.
-                    </p>
-                </div>
-                <!--Animation divs med lager erfarenheter-->
-                <div class="container div-container">
-                    <div class="warehouse-div div div-left" data-aos="fade-right">
-                        <h2 class="skills">Current employer</h2>
-                        <h3 class="experience-dates">Jan 2020 - Present</h3>
-                        <a target="_blank" href="https://www.scandinaviancosmetics.se/"><img class="work-logo" src="https://www.scandinaviancosmetics.se/assets/img/logo@x2.png" alt="ScanCo"></a>
-
-                    </div>
-                    <div class="warehouse-div div previous-employ" data-aos="fade-left">
-                        <h2 class="skills pre-skills">Previous employers</h2>
-                        <a target="_blank" href="https://boxflow.com/en/"><img class="previous-logo" src="https://boxflow.com/wp-content/uploads/2022/11/boxflow_rgb_tag_neg.png" alt="BoxFlow"></a>
-                        <a target="_blank" href="https://se.kuehne-nagel.com/"><img class="previous-logo" src="https://se.kuehne-nagel.com/o/kn-lgo-theme/images/kuehne-nagel-logo-blue.png" alt="Kuhne+Nagel"></a>
-                        <a target="_blank" href="https://www.bring.dk/"><img class="previous-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bring_logo.svg/2560px-Bring_logo.svg.png" alt="Bring DK"></a>
-                    </div>
-                </div>
+            <div class="div code-div div-right" data-aos="fade-left">
+              <h2 class="skills">Grit Academy</h2>
+              <h3 class="experience-dates">Jan 2022 - Present</h3>
+              <ul class="experience-points" style="list-style-type: none">
+                <li>Entrepreneurship and consulting</li>
+                <li>HTML and CSS</li>
+                <li>Design and UX</li>
+                <li>Frontend JavaScript</li>
+              </ul>
+              <a
+                target="_blank"
+                href="https://gritacademy.se/webbutvecklare-inriktning-e-handel/"
+                ><i class="fa-solid fa-circle-info info-links"></i
+              ></a>
             </div>
+          </div>
         </div>
-        <!--Background wrapper och färg overlay till cooking information-->
-        <div class="wrapper3">
-            <div class="overlay">
-                <!--Div som har information om min cooking erfarenhet-->
-                <div class="cooking-info">
-                    <h1 class="interest-h1">Prior to Sweden</h1>
-                    <p class="interest-p">Prior to moving to Sweden I worked in a fine dining restaurant in Lom, Norway. It was a great experience and something different and exciting to what I had done prior to that. I learnt a tremendous amount of skills during this period
-                        both personally and those that relate to my work life. I worked individually, in charge of cooking the À la carte garden menu and part of a team serving 3-7 course meals. It was commom to work under time related pressures and important
-                        to be very detail orientated.</p>
-                </div>
-                <!--Div som har information som säger tack och frågar om man vill kontakta mig-->
-                <div class="cooking-contact" data-aos="fade-up">
-                    <p class="cooking-contact-p interest-p">Kindly <a class="contact-a" href="contact.html">contact</a> me if you would like any more information. Thanks for reading! <i class="fa-solid fa-face-smile contact-smile"></i></p>
-                </div>
+      </div>
+      <!--Background wrapper och färg overlay till lager information-->
+      <div class="wrapper2">
+        <div class="overlay">
+          <!--Div som har information om min coding erfarenhet-->
+          <div class="warehouse-info container">
+            <h1 class="interest-h1">My time in Sweden</h1>
+            <p class="interest-p">
+              Since moving to Sweden, my focus has been on working in logistics.
+              This experience has allowed me to collaborate effectively within
+              well-functioning teams, solve challenges, and meet deadlines. I
+              have also developed skills applicable to other occupations, such
+              as working independently, achieving targets, and resolving
+              customer issues. Punctuality, efficiency, and effectiveness are
+              traits I consistently demonstrate in my daily work.
+            </p>
+          </div>
+          <!--Animation divs med lager erfarenheter-->
+          <div class="container div-container">
+            <div class="warehouse-div div div-left" data-aos="fade-right">
+              <h2 class="skills">Current employer</h2>
+              <h3 class="experience-dates">Jan 2020 - Present</h3>
+              <a target="_blank" href="https://www.scandinaviancosmetics.se/"
+                ><img
+                  class="work-logo"
+                  src="https://www.scandinaviancosmetics.se/assets/img/logo@x2.png"
+                  alt="ScanCo"
+              /></a>
             </div>
+            <div class="warehouse-div div previous-employ" data-aos="fade-left">
+              <h2 class="skills pre-skills">Previous employers</h2>
+              <a target="_blank" href="https://boxflow.com/en/"
+                ><img
+                  class="previous-logo"
+                  src="https://boxflow.com/wp-content/uploads/2022/11/boxflow_rgb_tag_neg.png"
+                  alt="BoxFlow"
+              /></a>
+              <a target="_blank" href="https://se.kuehne-nagel.com/"
+                ><img
+                  class="previous-logo"
+                  src="https://se.kuehne-nagel.com/o/kn-lgo-theme/images/kuehne-nagel-logo-blue.png"
+                  alt="Kuhne+Nagel"
+              /></a>
+              <a target="_blank" href="https://www.bring.dk/"
+                ><img
+                  class="previous-logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bring_logo.svg/2560px-Bring_logo.svg.png"
+                  alt="Bring DK"
+              /></a>
+            </div>
+          </div>
         </div>
-
+      </div>
+      <!--Background wrapper och färg overlay till cooking information-->
+      <div class="wrapper3">
+        <div class="overlay">
+          <!--Div som har information om min cooking erfarenhet-->
+          <div class="cooking-info">
+            <h1 class="interest-h1">Prior to Sweden</h1>
+            <p class="interest-p">
+              Prior to moving to Sweden, I worked in a renowned fine dining
+              restaurant in Lom, Norway. It was an exhilarating and
+              transformative experience that enriched both my personal and
+              professional life. I gained valuable skills by working
+              independently, cooking the À la carte garden menu, and as part of
+              a team serving 3-7 course meals. This role honed my attention to
+              detail, ability to work under time pressure, and commitment to
+              excellence.
+            </p>
+          </div>
+          <!--Div som har information som säger tack och frågar om man vill kontakta mig-->
+          <div class="cooking-contact" data-aos="fade-up">
+            <p class="cooking-contact-p interest-p">
+              Kindly <a class="contact-a" href="contact.html">contact</a> me if
+              you would like any more information. Thanks for reading!
+              <i class="fa-solid fa-face-smile contact-smile"></i>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <!--Footer som har social länkar, och copyright information-->
     <footer>
-        <a href="https://www.github.com/theonorris" target="_blank"><i class="fa-brands fa-github social-links"></i></a>
-        <a href="https://www.linkedin.com/in/theo-norris-b22645183/" target="_blank"><i class="fa-brands fa-linkedin social-links"></i></a>
-        <p class="copyright-text">
-            © Theo Norris. All rights reserved. Website designed by
-            <a target="_blank" class="theo-tag" href="https://github.com/TheoNorris">Theo Norris</a>
-        </p>
+      <a href="https://www.github.com/theonorris" target="_blank"
+        ><i class="fa-brands fa-github social-links"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/theo-norris-b22645183/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin social-links"></i
+      ></a>
+      <p class="copyright-text">
+        © Theo Norris. All rights reserved. Website designed by
+        <a target="_blank" class="theo-tag" href="https://github.com/TheoNorris"
+          >Theo Norris</a
+        >
+      </p>
     </footer>
     <!--Script för bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <!--Script för aos som animate de olika divs-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-</body>
-
+  </body>
 </html>
