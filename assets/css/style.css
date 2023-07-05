@@ -81,8 +81,21 @@ a.nav-link.colour.active {
 }
 
 .project-div {
-  visibility: hidden;
+  visibility: hidden; /* Start with the div hidden */
+  position: absolute;
+  bottom: 40px;
+  width: 50%;
+  right: 25%;
+  padding: 15px;
+  background-color: #fffaf7;
+  opacity: 0; /* Start with 0 opacity */
+  border-radius: 25px;
+  animation-name: fadeIn; /* Name of the animation */
+  animation-duration: 1s; /* Duration of the animation */
+  animation-delay: 4s; /* Delay before the animation starts */
+  animation-fill-mode: forwards; /* Keeps the final state of the animation */
 }
+
 /*-------Index.html/Video och text---------*/
 
 .vid-div {
@@ -657,16 +670,15 @@ footer {
   }
   /* index.html */
 
-  .project-div {
-    visibility: visible;
-    position: absolute;
-    bottom: 100px;
-    width: 50%;
-    right: 25%;
-    padding: 15px;
-    background-color: #fffaf7;
-    opacity: 80%;
-    border-radius: 25px;
+  @keyframes fadeIn {
+    from {
+      visibility: hidden; /* Start with the div hidden */
+      opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+      visibility: visible; /* Show the div */
+      opacity: 0.8; /* Fade in to 0.8 opacity */
+    }
   }
 
   .theo-vid {
