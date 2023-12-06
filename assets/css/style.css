@@ -83,7 +83,7 @@ a.nav-link.colour.active {
 .project-div {
   visibility: hidden; /* Start with the div hidden */
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   width: 50%;
   right: 25%;
   padding: 15px;
@@ -92,7 +92,7 @@ a.nav-link.colour.active {
   border-radius: 25px;
   animation-name: fadeIn; /* Name of the animation */
   animation-duration: 1s; /* Duration of the animation */
-  animation-delay: 4s; /* Delay before the animation starts */
+  animation-delay: 3s; /* Delay before the animation starts */
   animation-fill-mode: forwards; /* Keeps the final state of the animation */
 }
 
