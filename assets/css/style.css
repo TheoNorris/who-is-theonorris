@@ -2,7 +2,8 @@
 /*-------body---------*/
 
 body {
-  background-image: linear-gradient(135deg, #ffe2cb, #ffffff);
+  background: url("../images/theo-background.png") no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,38 +53,10 @@ a.nav-link.colour.active {
 }
 /*-------Index.html/2 div som skapar en mönster---------*/
 
-.colour-div {
-  right: 0px;
-  bottom: 20%;
-  width: 40%;
-  height: 60%;
-  margin-top: 30px;
-  background-color: #ecdbcf;
-  position: absolute;
-  opacity: 75%;
-  z-index: 0;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-}
-
-.colour2-div {
-  right: 0px;
-  bottom: 0%;
-  width: 30%;
-  height: 60%;
-  margin-top: 30px;
-  background-color: #e6bda0;
-  position: absolute;
-  opacity: 50%;
-  z-index: 0;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-}
-
 .project-div {
   visibility: hidden; /* Start with the div hidden */
   position: absolute;
-  bottom: 30px;
+  bottom: 15%;
   width: 50%;
   right: 25%;
   padding: 15px;
@@ -199,9 +172,9 @@ video {
 .coding-info {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   background-color: #ff914d79;
-  width: 50%;
+  width: 70%;
   margin-top: 3%;
-  margin-left: 45%;
+  margin-left: 25%;
   margin-right: 20px;
   border-radius: 50px;
   padding: 20px 10px 20px 10px;
@@ -255,7 +228,7 @@ video {
   background-color: #ff914d79;
   border: 4px solid rgb(163, 153, 143, 0.3);
   columns: white;
-  margin-top: 150px;
+  margin-top: 50px;
   border-radius: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -277,6 +250,7 @@ video {
 
 .warehouse-div.div {
   background-color: #fff8f39d;
+  margin-top: 18%;
 }
 
 .previous-employ {
@@ -501,10 +475,33 @@ footer {
 }
 /*-------Responsiveness till olika storlek---------*/
 
+@media (max-width: 1190px) {
+  .div-container {
+    min-width: 100%;
+  }
+  .ex-div-right {
+    margin-left: 20px;
+  }
+  .ex-div-left {
+    margin-right: 20px;
+  }
+  .interest-p {
+    font-size: 22px;
+  }
+  .warehouse-div {
+    margin-top: 170px;
+  }
+  .experience-points {
+    font-size: 22px;
+  }
+  .experience-dates {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 1149px) {
   /* Navbar */
   .navbar-links {
-    margin-left: 55%;
     position: relative;
     z-index: 3;
   }
@@ -516,11 +513,14 @@ footer {
     height: 105vh;
   }
   /* experience.html */
+  .wrapper3 {
+    height: 60vh;
+  }
   .wrapper {
     margin-top: 80px;
   }
   .coding-info {
-    margin-top: 11%;
+    margin: 11% auto 0;
   }
   .warehouse-info {
     margin-top: 11%;
@@ -529,10 +529,10 @@ footer {
     margin-top: 11%;
   }
   .div-left {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .div-right {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .interest-p {
     font-size: 16px;
@@ -567,16 +567,16 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   /* experience.html */
   .wrapper {
-    height: 110vh;
+    height: 220vh;
   }
   .wrapper2 {
-    height: 100vh;
+    height: 200vh;
   }
   .wrapper3 {
-    height: 100vh;
+    height: 120vh;
   }
 }
 
@@ -617,6 +617,15 @@ footer {
     font-size: 18px;
   }
   /* experience.html */
+  .wrapper {
+    height: 150vh;
+  }
+  .wrapper2 {
+    height: 90vh;
+  }
+  .wrapper3 {
+    height: 80vh;
+  }
   .code-div {
     width: 450px;
     margin-top: 100px;
@@ -644,7 +653,7 @@ footer {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .navbar-links {
     background-color: #fff4eb;
     padding: 20px;
@@ -690,7 +699,7 @@ footer {
     height: 60vh;
   }
   .text-div {
-    top: 20%;
+    top: 15%;
   }
   .name-tag {
     font-size: 40px;
@@ -709,15 +718,7 @@ footer {
     margin-left: 81%;
   }
   /* experience.html */
-  .wrapper {
-    height: 130%;
-  }
-  .wrapper2 {
-    height: 130%;
-  }
-  .wrapper3 {
-    height: 80%;
-  }
+
   li {
     margin-top: 5px;
     font-size: 20px;
@@ -762,9 +763,10 @@ footer {
     border-radius: 0px;
     width: 100%;
   }
-  .warehouse-div {
-    margin-top: 225px;
+  .warehouse-div.div {
+    margin-top: 0%;
   }
+
   .cooking-info {
     margin-top: 11%;
     margin-left: 0px;
@@ -818,17 +820,17 @@ footer {
   }
   /* experience.html */
   .wrapper {
-    height: 150vh;
+    height: 250vh;
   }
   .wrapper2 {
-    height: 140vh;
+    height: 170vh;
   }
   .wrapper3 {
     height: 85vh;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 432px) {
   /* index.html */
   .vid-div {
     width: 100%;
@@ -844,13 +846,13 @@ footer {
   }
   /* experience.html */
   .wrapper {
-    height: 200vh;
+    height: 220vh;
   }
   .wrapper2 {
-    height: 170vh;
+    height: 140vh;
   }
   .wrapper3 {
-    height: 105vh;
+    height: 80vh;
   }
   .cooking-contact {
     right: 30px;
@@ -860,9 +862,18 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .theo-vid {
     width: 60%;
+  }
+  .wrapper {
+    height: 300vh;
+  }
+  .wrapper2 {
+    height: 170vh;
+  }
+  .wrapper3 {
+    height: 105vh;
   }
 }
 
@@ -876,7 +887,7 @@ footer {
   }
   /* experience.html */
   .wrapper {
-    height: 230vh;
+    height: 360vh;
   }
   .wrapper2 {
     height: 210vh;

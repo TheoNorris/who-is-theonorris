@@ -1,35 +1,10 @@
 <html lang="en">
   <head>
-    <!--Meta tags-->
+    <!--Meta tags och länkar till favicon, bootstrap, fontawesome och css-->
     <meta charset="UTF-8" />
-    <!--SEO-->
-    <meta
-      name="keywords"
-      content="webbutvecklare, webbutveckling, webb, coding, kod, css, html, javascript, grit academy"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Theo Norris - Hem</title>
-    <!--Favicon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/images/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <!--Bootstrap, fontawesome, css-->
+    <title>Experience - Theo Norris, web developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -45,202 +20,208 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
-    <!--Responsive nav-->
-    <nav id="navbar-css" class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-logo navbar-brand navbar-brand-light" href="index.html"
-          ><img
-            class="navbar-logo"
-            src="assets/images/TN.png"
-            alt="Theo Norris"
-        /></a>
-        <a class="navbar-logo navbar-brand navbar-brand-dark" href="index.html"
-          ><img
-            class="navbar-logo"
-            src="assets/images/TN2.png"
-            alt="Theo Norris"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbar-links">
-            <li class="nav-item">
-              <a
-                class="nav-link colour active"
-                aria-current="page"
-                href="index.html"
-                >Hem</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Projekt
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="sleek.html">Sleek Web</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="theo.html"
-                    >Theo Norris web developer</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="josh.html"
-                    >Josh Leedam Photography</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="uk.html">UK STAND UP</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link colour" href="about.html">Om mig</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link colour" href="contact.html">Kontakt</a>
-            </li>
-          </ul>
+    <header>
+      <!--Navbar-->
+      <nav id="navbar-css" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img class="navbar-logo" src="assets/images/tn.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-links">
+              <li class="nav-item">
+                <a
+                  class="nav-link colour"
+                  aria-current="page"
+                  href="projects.html"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link colour active"
+                  aria-current="page"
+                  href="experience.html"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colour" href="contact.html">Contact me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+
     <section>
-      <!--Background image and overlay-->
+      <!--Background wrapper och färg overlay till coding information-->
       <div class="wrapper">
         <div class="overlay">
-          <!--Animated header-->
-          <h1 class="page-headers">
-            <span class="intro intro-1">V</span
-            ><span class="intro intro-2">ä</span
-            ><span class="intro intro-3">l</span
-            ><span class="intro intro-4">k</span
-            ><span class="intro intro-5">o</span
-            ><span class="intro intro-6">m</span
-            ><span class="intro intro-7">m</span
-            ><span class="intro intro-8">e</span
-            ><span class="intro intro-9">n</span>
-            <span class="intro intro-10">t</span
-            ><span class="intro intro-11">i</span
-            ><span class="intro intro-12">l</span
-            ><span class="intro intro-13">l</span>
-          </h1>
-          <h1 class="page-headers line-2">
-            <span class="intro-14">min sida</span>
-          </h1>
-          <!--Main div which is a flexbox containing intro information and different projects to select-->
-          <div class="main-page-div index-div">
-            <div class="main-page-left index-left">
-              <div class="project-container">
-                <a class="thumnail-link" href="sleek.html">
-                  <div class="project-thumnail">
-                    <img
-                      class="project-image"
-                      src="assets/images/sleekshot.png"
-                      alt="Sleek web"
-                    />
-                    <h5 class="project-name">Sleek Web</h5>
-                    <p class="project-thumb-info">
-                      Sleek Web Development är en professionell webbplats för
-                      företag som söker högkvalitativa webbrelaterade tjänster.
-                    </p>
-                  </div>
-                </a>
-                <a class="thumnail-link" href="theo.html">
-                  <div class="project-thumnail">
-                    <img
-                      class="project-image"
-                      src="assets/images/interestpage.png"
-                      alt="Wheo Norris interests"
-                    />
-                    <h5 class="project-name">Theo Norris interests page</h5>
-                    <p class="project-thumb-info">
-                      Syftet med denna webbplats är att marknadsföra Theo Norris
-                      och erbjuda professionella webbutvecklingstjänster till
-                      kunder som behöver hjälp med sin webbplats.
-                    </p>
-                  </div>
-                </a>
-                <a class="thumnail-link" href="josh.html">
-                  <div class="project-thumnail">
-                    <img
-                      class="project-image"
-                      src="assets/images/joshphotog.png"
-                      alt="Josh Leedam Photog"
-                    />
-                    <h5 class="project-name">Josh Leedam Photography</h5>
-                    <p class="project-thumb-info">
-                      Josh Leedam Photography är en webbplats dedikerad till att
-                      visa upp arbetet av den talangfulla fotografen med samma
-                      namn som titeln.
-                    </p>
-                  </div>
-                </a>
-                <a class="thumnail-link" href="uk.html">
-                  <div class="project-thumnail">
-                    <img
-                      class="project-image"
-                      src="assets/images/uk.png"
-                      alt="UK Stand Up"
-                    />
-                    <h5 class="project-name">UK STAND UP</h5>
-                    <p class="project-thumb-info">
-                      Denna webbplats är en omfattande API-baserad plattform som
-                      ger användare ett enkelt sätt att söka efter sina
-                      favoritartister och få tillgång till detaljerad
-                      information om dem, inklusive deras sociala medier och
-                      musiklänkar.
-                    </p>
-                  </div>
-                </a>
-              </div>
+          <!--Div som har information om min coding erfarenhet-->
+          <div class="coding-info container">
+            <h1 class="interest-h1">My Current Experience</h1>
+            <p class="interest-p">
+              I'm currently enrolled in two courses: e-commerce-oriented web
+              development and front-end web development. These programs are
+              providing me with a diverse skill set for the dynamic field of web
+              development. In the e-commerce course, I'm learning to build
+              robust online platforms, focusing on technologies specific to
+              e-commerce and addressing unique challenges in creating secure
+              shopping experiences. Simultaneously, my front-end studies involve
+              mastering the latest technologies like React and NEXT.js for
+              creating engaging user interfaces. Alongside my studies, I'm
+              actively engaged in freelance projects, enhancing both technical
+              skills and business acumen. My prior experience includes a
+              full-stack web development program at Code Institute in 2020,
+              covering languages like Python and JavaScript. This combination of
+              formal education and hands-on experience positions me as a
+              well-rounded professional, ready to deliver high-quality web
+              development solutions and navigate broader business aspects. I'm
+              enthusiastic about leveraging this skill set for challenging
+              projects and optimal outcomes.
+            </p>
+          </div>
+          <!--Animation divs med skolor och erfarenheter-->
+          <div class="container div-container">
+            <div
+              class="div code-div div-left ex-div-left"
+              data-aos="fade-right"
+            >
+              <h2 class="skills">Code Institute</h2>
+              <h3 class="experience-dates">2020</h3>
+              <ul class="experience-points" style="list-style-type: none">
+                <li>User centric frontend development</li>
+                <li>Interactive frontend development</li>
+                <li>Data centric development</li>
+                <li>Full Stack Frameworks</li>
+              </ul>
+              <a target="_blank" href="https://codeinstitute.net"
+                ><i class="fa-solid fa-circle-info info-links"></i
+              ></a>
             </div>
-            <div class="main-page-right index-right">
-              <p class="top-p information-p">
-                Välkommen till min hemsida. Här hittar du en omfattande portfölj
-                med noggrant genomtänkta, expertdesignade och noggrant utförda
-                projekt, tillsammans med omfattande information om mig själv och
-                mina strävanden.
-              </p>
-
-              <p class="information-p">
-                Min portfölj visar upp ett brett spektrum av arbete som
-                framhäver mina färdigheter, erfarenhet och kreativitet och
-                speglar mitt engagemang för excellens och innovation. Förutom
-                portföljen hittar du även länkar till mina sociala medieprofiler
-                och en dedikerad kontakt-sida för eventuella förfrågningar eller
-                samarbetsmöjligheter.
-              </p>
-
-              <p class="information-p">
-                Tack för att du besöker min hemsida, och jag ser fram emot
-                möjligheten att koppla samman med dig snart.
-              </p>
+            <div
+              class="div code-div div-right ex-div-right"
+              data-aos="fade-left"
+            >
+              <h2 class="skills">Grit Academy</h2>
+              <h3 class="experience-dates">Jan 2022 - Present</h3>
+              <ul class="experience-points" style="list-style-type: none">
+                <li>Agile Project Management</li>
+                <li>Payment Solutions & Third Party Systems</li>
+                <li>Database Management</li>
+                <li>Design & UX</li>
+                <li>Digital Businesses & Marketing</li>
+                <li>E-Commerce Platforms</li>
+                <li>Entrepreneurship & Consulting</li>
+                <li>Javascript</li>
+                <li>HTML & CSS</li>
+              </ul>
+              <a
+                target="_blank"
+                href="https://gritacademy.se/webbutvecklare-inriktning-e-handel/"
+                ><i class="fa-solid fa-circle-info info-links"></i
+              ></a>
             </div>
           </div>
         </div>
       </div>
+      <!--Background wrapper och färg overlay till lager information-->
+      <div class="wrapper2">
+        <div class="overlay">
+          <!--Div som har information om min coding erfarenhet-->
+          <div class="warehouse-info container">
+            <h1 class="interest-h1">My time in Sweden</h1>
+            <p class="interest-p">
+              Since moving to Sweden, my focus has been on working in logistics.
+              This experience has allowed me to collaborate effectively within
+              well-functioning teams, solve challenges, and meet deadlines. I
+              have also developed skills applicable to other occupations, such
+              as working independently, achieving targets, and resolving
+              customer issues. Punctuality, efficiency, and effectiveness are
+              traits I consistently demonstrate in my daily work.
+            </p>
+          </div>
+          <!--Animation divs med lager erfarenheter-->
+          <div class="container div-container">
+            <div class="warehouse-div div div-left" data-aos="fade-right">
+              <h2 class="skills">Current employer</h2>
+              <h3 class="experience-dates">Jan 2020 - Present</h3>
+              <a target="_blank" href="https://www.scandinaviancosmetics.se/"
+                ><img
+                  class="work-logo"
+                  src="https://www.scandinaviancosmetics.se/assets/img/logo@x2.png"
+                  alt="ScanCo"
+              /></a>
+            </div>
+            <div class="warehouse-div div previous-employ" data-aos="fade-left">
+              <h2 class="skills pre-skills">Previous employers</h2>
+              <a target="_blank" href="https://boxflow.com/en/"
+                ><img
+                  class="previous-logo"
+                  src="https://boxflow.com/wp-content/uploads/2022/11/boxflow_rgb_tag_neg.png"
+                  alt="BoxFlow"
+              /></a>
+              <a target="_blank" href="https://se.kuehne-nagel.com/"
+                ><img
+                  class="previous-logo"
+                  src="https://se.kuehne-nagel.com/o/kn-lgo-theme/images/kuehne-nagel-logo-blue.png"
+                  alt="Kuhne+Nagel"
+              /></a>
+              <a target="_blank" href="https://www.bring.dk/"
+                ><img
+                  class="previous-logo"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bring_logo.svg/2560px-Bring_logo.svg.png"
+                  alt="Bring DK"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Background wrapper och färg overlay till cooking information-->
+      <div class="wrapper3">
+        <div class="overlay">
+          <!--Div som har information om min cooking erfarenhet-->
+          <div class="cooking-info">
+            <h1 class="interest-h1">Prior to Sweden</h1>
+            <p class="interest-p">
+              Prior to moving to Sweden, I worked in a renowned fine dining
+              restaurant in Lom, Norway. It was an exhilarating and
+              transformative experience that enriched both my personal and
+              professional life. I gained valuable skills by working
+              independently, cooking the À la carte garden menu, and as part of
+              a team serving 3-7 course meals. This role honed my attention to
+              detail, ability to work under time pressure, and commitment to
+              excellence.
+            </p>
+          </div>
+          <!--Div som har information som säger tack och frågar om man vill kontakta mig-->
+          <div class="cooking-contact" data-aos="fade-up">
+            <p class="cooking-contact-p interest-p">
+              Kindly <a class="contact-a" href="contact.html">contact</a> me if
+              you would like any more information. Thanks for reading!
+              <i class="fa-solid fa-face-smile contact-smile"></i>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <!--Footer with social media links and copyright info-->
+    <!--Footer som har social länkar, och copyright information-->
     <footer>
       <a href="https://www.github.com/theonorris" target="_blank"
         ><i class="fa-brands fa-github social-links"></i
@@ -263,5 +244,10 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <!--Script för aos som animate de olika divs-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
