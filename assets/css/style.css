@@ -713,6 +713,11 @@ footer {
   .gassed-project-info {
     min-height: 60vh;
   }
+  .wrapper3.neat-wrapper {
+    min-height: 50vh;
+  }
+  .neat-project-info {
+  }
 }
 
 @media (max-width: 991px) {
@@ -819,6 +824,12 @@ footer {
     height: 190vh;
   }
   .gassed-project-info {
+    min-height: 0;
+  }
+  .wrapper3.neat-wrapper {
+    min-height: 180vh;
+  }
+  .neat-project-info {
     min-height: 0;
   }
 
@@ -983,6 +994,9 @@ footer {
   .project2-wrapper {
     height: 230vh;
   }
+  .wrapper3.neat-wrapper {
+    min-height: 220vh;
+  }
 }
 
 @media (max-width: 432px) {
@@ -1021,6 +1035,9 @@ footer {
   .project2-wrapper {
     height: 190vh;
   }
+  .wrapper3.neat-wrapper {
+    min-height: 190vh;
+  }
 }
 
 @media (max-width: 390px) {
@@ -1041,6 +1058,9 @@ footer {
   }
   .project2-wrapper {
     height: 240vh;
+  }
+  .wrapper3.neat-wrapper {
+    min-height: 220vh;
   }
 }
 
@@ -1069,5 +1089,8 @@ footer {
   }
   .contact-wrapper {
     height: 140vh;
+  }
+  .wrapper3.neat-wrapper {
+    min-height: 240vh;
   }
 }
