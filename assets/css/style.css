@@ -298,9 +298,10 @@ li {
 /*-------experience.html/kod skolor länkar---------*/
 
 .info-links {
-  font-size: 25px;
+  font-size: 30px;
   color: #ff914d;
   text-shadow: 0 0 rgb(102, 102, 102);
+  margin: 5px;
 }
 
 .info-links:hover {
@@ -380,6 +381,39 @@ li {
 
 .contact-smile {
   color: #ff914d;
+}
+
+/*-------Project.html---------*/
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.project-info {
+  margin: 100px 40px;
+  width: 100%;
+  min-height: 120vh;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-image-14 {
+  padding: 20px 10px;
+}
+
+.project-image-23 {
+  width: 50%;
+  padding: 10px;
+}
+
+.div-left.project-info {
+  background-color: #ffffff69;
 }
 /*-------contact.html/form div---------*/
 
