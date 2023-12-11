@@ -693,13 +693,13 @@ footer {
 @media (max-width: 1024px) {
   /* experience.html */
   .wrapper {
-    height: 220vh;
+    height: 100vh;
   }
   .wrapper2 {
-    height: 200vh;
+    height: 80vh;
   }
   .wrapper3 {
-    height: 120vh;
+    height: 70vh;
   }
   .project-info {
     min-height: 50vh;
@@ -1023,7 +1023,7 @@ footer {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 390px) {
   .theo-vid {
     width: 60%;
   }
