@@ -225,7 +225,7 @@ video {
   height: 300px;
   width: 40%;
   justify-content: center;
-  background-color: #ff914d79;
+  background-color: #ff914dad;
   border: 4px solid rgb(163, 153, 143, 0.3);
   columns: white;
   margin-top: 50px;
@@ -385,6 +385,49 @@ li {
 
 /*-------Project.html---------*/
 
+.project1-wrapper {
+  margin-top: 100px;
+  height: 150vh;
+  background: url("../images/computer.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.project2-wrapper {
+  height: 160vh;
+  background: url("../images/clothes.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.project5-wrapper {
+  height: 160vh;
+  background: url("../images/friends.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
 .project-container {
   display: flex;
   flex-direction: row;
@@ -392,10 +435,29 @@ li {
   padding: 20px 0;
 }
 
-.project-info {
+.proj {
   margin: 100px 40px;
   width: 100%;
+}
+
+.project-info {
   min-height: 120vh;
+}
+
+.gassed-project-info {
+  min-height: 135vh;
+}
+
+.rosman-project-info {
+  min-height: 140vh;
+}
+
+.rosman-project-info {
+  min-height: 130vh;
+}
+
+.project-noheight {
+  min-height: 100vh;
 }
 
 .project-image {
@@ -412,7 +474,7 @@ li {
   padding: 10px;
 }
 
-.div-left.project-info {
+.div-left.proj {
   background-color: #ffffff69;
 }
 /*-------contact.html/form div---------*/
@@ -599,6 +661,33 @@ footer {
     width: 300px;
     height: 150px;
   }
+
+  .project1-wrapper {
+    height: 140vh;
+  }
+
+  .project-info {
+    min-height: 100vh;
+  }
+
+  .gassed-project-info {
+    min-height: 100vh;
+  }
+
+  .rosman-project-info {
+    min-height: 100vh;
+  }
+
+  .rosman-project-info {
+    min-height: 100vh;
+  }
+
+  .project-noheight {
+    min-height: 100%;
+  }
+  .wrapper3.neat-wrapper {
+    min-height: 130vh;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -611,6 +700,18 @@ footer {
   }
   .wrapper3 {
     height: 120vh;
+  }
+  .project-info {
+    min-height: 50vh;
+  }
+  .project1-wrapper {
+    height: 80vh;
+  }
+  .project2-wrapper {
+    height: 85vh;
+  }
+  .gassed-project-info {
+    min-height: 60vh;
   }
 }
 
@@ -707,6 +808,20 @@ footer {
   .navbar-logo {
     height: 50px;
   }
+
+  .project-info {
+    min-height: 0;
+  }
+  .project1-wrapper {
+    height: 180vh;
+  }
+  .project2-wrapper {
+    height: 190vh;
+  }
+  .gassed-project-info {
+    min-height: 0;
+  }
+
   /* footer */
   .copyright-text {
     padding: 0 15px;
@@ -862,6 +977,12 @@ footer {
   .wrapper3 {
     height: 85vh;
   }
+  .project1-wrapper {
+    height: 220vh;
+  }
+  .project2-wrapper {
+    height: 230vh;
+  }
 }
 
 @media (max-width: 432px) {
@@ -894,6 +1015,12 @@ footer {
   .contact-wrapper {
     height: 130vh;
   }
+  .project1-wrapper {
+    height: 180vh;
+  }
+  .project2-wrapper {
+    height: 190vh;
+  }
 }
 
 @media (max-width: 376px) {
@@ -908,6 +1035,12 @@ footer {
   }
   .wrapper3 {
     height: 105vh;
+  }
+  .project1-wrapper {
+    height: 220vh;
+  }
+  .project2-wrapper {
+    height: 240vh;
   }
 }
 
