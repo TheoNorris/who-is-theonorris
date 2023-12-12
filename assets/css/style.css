@@ -414,8 +414,12 @@ li {
   z-index: 1;
 }
 
+.project4-wrapper {
+  height: 170vh;
+}
+
 .project5-wrapper {
-  height: 160vh;
+  height: 130vh;
   background: url("../images/friends.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -426,6 +430,10 @@ li {
   justify-content: center;
   text-align: center;
   z-index: 1;
+}
+
+.neat-wrapper {
+  height: 150vh;
 }
 
 .project-container {
@@ -453,7 +461,7 @@ li {
 }
 
 .rosman-project-info {
-  min-height: 130vh;
+  min-height: 140vh;
 }
 
 .project-noheight {
@@ -472,6 +480,17 @@ li {
 .project-image-23 {
   width: 50%;
   padding: 10px;
+}
+
+.project-links {
+  font-size: 30px;
+  color: #815720;
+  text-shadow: 0 0 rgb(102, 102, 102);
+  margin: 5px;
+}
+
+.project-links:hover {
+  color: #ff914d;
 }
 
 .div-left.proj {
@@ -673,20 +692,20 @@ footer {
   .gassed-project-info {
     min-height: 100vh;
   }
-
-  .rosman-project-info {
-    min-height: 100vh;
+  .neat-wrapper {
+    height: 140vh;
   }
-
   .rosman-project-info {
-    min-height: 100vh;
+    min-height: 120vh;
   }
-
+  .project4-wrapper {
+    height: 160vh;
+  }
   .project-noheight {
-    min-height: 100%;
+    min-height: 90vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 130vh;
+  .project5-wrapper {
+    height: 130vh;
   }
 }
 
@@ -713,10 +732,20 @@ footer {
   .gassed-project-info {
     min-height: 60vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 50vh;
+  .neat-wrapper {
+    height: 80vh;
   }
-  .neat-project-info {
+  .rosman-project-info {
+    min-height: 60vh;
+  }
+  .project4-wrapper {
+    height: 90vh;
+  }
+  .project-noheight {
+    min-height: 40vh;
+  }
+  .project5-wrapper {
+    height: 70vh;
   }
 }
 
@@ -791,6 +820,12 @@ footer {
     margin-top: 20px;
     width: 40%;
   }
+  .project-noheight {
+    min-height: 30vh;
+  }
+  .project5-wrapper {
+    height: 65vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -826,11 +861,23 @@ footer {
   .gassed-project-info {
     min-height: 0;
   }
-  .wrapper3.neat-wrapper {
+  .neat-wrapper {
     min-height: 180vh;
   }
   .neat-project-info {
     min-height: 0;
+  }
+  .rosman-project-info {
+    min-height: 0;
+  }
+  .project4-wrapper {
+    height: 190vh;
+  }
+  .project-noheight {
+    min-height: 0;
+  }
+  .project5-wrapper {
+    height: 150vh;
   }
 
   /* footer */
@@ -994,8 +1041,14 @@ footer {
   .project2-wrapper {
     height: 230vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 220vh;
+  .neat-wrapper {
+    height: 220vh;
+  }
+  .project4-wrapper {
+    height: 230vh;
+  }
+  .project5-wrapper {
+    height: 180vh;
   }
 }
 
@@ -1035,8 +1088,14 @@ footer {
   .project2-wrapper {
     height: 190vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 190vh;
+  .neat-wrapper {
+    height: 190vh;
+  }
+  .project4-wrapper {
+    height: 200vh;
+  }
+  .project5-wrapper {
+    height: 160vh;
   }
 }
 
@@ -1059,8 +1118,14 @@ footer {
   .project2-wrapper {
     height: 240vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 220vh;
+  .neat-wrapper {
+    height: 220vh;
+  }
+  .project4-wrapper {
+    height: 235vh;
+  }
+  .project5-wrapper {
+    height: 170vh;
   }
 }
 
@@ -1090,7 +1155,10 @@ footer {
   .contact-wrapper {
     height: 140vh;
   }
-  .wrapper3.neat-wrapper {
-    min-height: 240vh;
+  .neat-wrapper {
+    height: 240vh;
+  }
+  .project4-wrapper {
+    height: 260vh;
   }
 }
