@@ -34,6 +34,15 @@ body {
   border-radius: 20px;
 }
 
+.fixed-navbar {
+  position: fixed;
+  top: -60px;
+  width: 100%;
+  background-color: #ffebdbdc;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
 a.nav-link.colour.active {
   color: #ff914d;
 }
@@ -126,7 +135,7 @@ video {
 
 .wrapper {
   margin-top: 100px;
-  height: 200vh;
+  height: 220vh;
   background: url("../images/computer.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -154,7 +163,7 @@ video {
 }
 
 .wrapper3 {
-  height: 200vh;
+  height: 170vh;
   background: url("../images/cooking.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
