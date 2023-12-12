@@ -862,6 +862,7 @@ footer {
     min-height: 0;
   }
   .project1-wrapper {
+    margin-top: 80px;
     height: 180vh;
   }
   .project2-wrapper {
