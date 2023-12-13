@@ -547,6 +547,15 @@ li {
   font-size: 125%;
   color: #434343;
 }
+
+.tel-link {
+  text-decoration: none;
+  color: #814f0c;
+}
+
+.tel-link:hover {
+  color: #ff914d;
+}
 /*-------contact.html/namn, email etc---------*/
 
 .form-label {
