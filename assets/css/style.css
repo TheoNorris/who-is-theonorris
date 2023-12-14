@@ -52,6 +52,14 @@ a.nav-link.colour.active {
   height: 60px;
   width: 150px;
 }
+
+.contact-links {
+  font-size: 25px;
+  color: #815720;
+  text-shadow: 0 0 rgb(102, 102, 102);
+  margin: 5px;
+}
+
 /*-------Index.html/Video och text div---------*/
 
 .vid-and-text-div {
