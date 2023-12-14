@@ -871,6 +871,10 @@ footer {
   .nav-link {
     padding: 0;
   }
+
+  .contact-links {
+    font-size: 15px;
+  }
   .navbar-logo {
     height: 50px;
   }
