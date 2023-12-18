@@ -68,6 +68,56 @@ a.nav-link.colour.active {
   padding-left: 0;
   padding-bottom: 0;
 }
+
+.vid-div {
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+#background {
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  width: 200%; /* Adjust the width to cover a larger area */
+  height: 200%; /* Adjust the height to cover a larger area */
+  animation: moveBackground 20s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+  background: linear-gradient(
+    -45deg,
+    rgba(217, 199, 179, 0.7) 20%,
+    /* Adjust the alpha (opacity) for blur effect */ rgba(236, 221, 212, 0.7)
+      25%,
+    rgba(236, 221, 212, 0.7) 50%,
+    rgba(217, 199, 179, 0.7) 55%,
+    rgba(217, 199, 179, 0.7) 70%,
+    rgba(236, 221, 212, 0.7) 75%,
+    rgba(236, 221, 212, 0.7) 100%
+  );
+  filter: blur(10px); /* Adjust the blur amount as needed */
+}
+
+@keyframes moveBackground {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Adjust the percentage for the desired movement */
+  }
+}
+
+#front-image {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  z-index: 0;
+  width: 75%;
+}
 /*-------Index.html/2 div som skapar en mönster---------*/
 
 .project-div {
@@ -622,11 +672,8 @@ footer {
   .div-container {
     min-width: 100%;
   }
-  .ex-div-right {
-    margin-left: 20px;
-  }
-  .ex-div-left {
-    margin-right: 20px;
+  #front-image {
+    width: 100%;
   }
   .interest-p {
     font-size: 22px;
@@ -738,10 +785,12 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  .theo-vid {
-    border-bottom-right-radius: 25px;
-    padding-top: 10%;
-    box-shadow: none;
+  .vid-div {
+    height: 50vh;
+    margin-top: 20%;
+  }
+  #front-image {
+    width: 70%;
   }
   /* experience.html */
   .wrapper {
@@ -791,10 +840,14 @@ footer {
     display: contents;
   }
   .vid-div {
-    width: 90%;
-    bottom: 84px;
+    width: 70%;
     left: 0px;
-    height: 70%;
+    min-height: 60vh;
+    height: 60vh;
+    margin-top: 0;
+  }
+  #front-image {
+    width: 70%;
   }
   .colour2-div {
     display: none;
@@ -880,6 +933,10 @@ footer {
     height: 50px;
   }
 
+  #front-image {
+    width: 100%;
+  }
+
   .project-info {
     min-height: 0;
   }
@@ -934,7 +991,7 @@ footer {
     border-bottom-right-radius: 25px;
   }
   .vid-div {
-    width: 100%;
+    width: 60%;
     height: 60vh;
   }
   .text-div {
@@ -1036,9 +1093,8 @@ footer {
   /* index.html */
 
   .vid-div {
-    width: 100%;
-    height: 100%;
-    position: unset;
+    min-height: 40%;
+    margin-top: 45px;
   }
   .name-tag {
     font-size: 30px;
@@ -1087,13 +1143,9 @@ footer {
 @media (max-width: 432px) {
   /* index.html */
   .vid-div {
-    width: 100%;
-    height: 60vh;
-    position: absolute;
-  }
-  .theo-vid {
-    width: 65%;
-    padding-top: 0;
+    width: 50%;
+    height: 40%;
+    border-radius: 0 20px 20px 0;
   }
   .vid-div {
     position: absolute;
@@ -1135,8 +1187,8 @@ footer {
 }
 
 @media (max-width: 390px) {
-  .theo-vid {
-    width: 60%;
+  .vid-div {
+    margin-top: 40px;
   }
   .wrapper {
     height: 300vh;
@@ -1171,6 +1223,10 @@ footer {
   /* index.html */
   .home-text {
     font-size: 12px;
+  }
+
+  .project-div {
+    bottom: 5%;
   }
   /* experience.html */
   .wrapper {
