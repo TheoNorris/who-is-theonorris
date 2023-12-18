@@ -792,7 +792,7 @@ footer {
   }
   .vid-div {
     width: 90%;
-    position: absolute;
+    position: fixed;
     bottom: 84px;
     left: 0px;
     height: 70%;
