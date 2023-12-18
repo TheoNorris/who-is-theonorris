@@ -94,11 +94,13 @@ a.nav-link.colour.active {
   background-color: #ecdbcf;
   border-top-right-radius: 25px;
   width: 50%;
+  min-height: 400px;
 }
 
 video {
   border-top-right-radius: 25px;
   box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
 
 .text-div {
@@ -736,6 +738,11 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .theo-vid {
+    border-bottom-right-radius: 25px;
+    padding-top: 10%;
+    box-shadow: none;
+  }
   /* experience.html */
   .wrapper {
     height: 100vh;
@@ -782,11 +789,6 @@ footer {
   }
   .vid-and-text-div {
     display: contents;
-  }
-  .theo-vid {
-    border-bottom-right-radius: 25px;
-    padding-top: 10%;
-    box-shadow: none;
   }
   .vid-div {
     width: 90%;
@@ -1096,6 +1098,9 @@ footer {
   }
   .vid-div {
     position: absolute;
+  }
+  .project-div {
+    bottom: 15%;
   }
   /* experience.html */
   .wrapper {
